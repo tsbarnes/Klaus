@@ -1,0 +1,30 @@
+#panel {
+  background-color: $theme_bg_color;
+  color: $theme_fg_color;
+
+  .panel-corner {
+    -panel-corner-radius: 0;
+    -panel-corner-background-color: transparent;
+    -panel-corner-border-width: 0;
+    -panel-corner-border-color: transparent;
+  }
+
+  .panel-button {
+    color: $theme_fg_color;
+
+    .app-menu-icon {
+      -st-icon-style: symbolic;
+    }
+  }
+
+  &:hover, &:active, &:overview, &:focus, &:checked {
+    background-color: transparent;
+    color: $theme_fg_color;
+    border-bottom: 5px solid $theme_selected_bg_color;
+  }
+
+  &:insensitive {
+    color: $insensitive_fg_color;
+    background-color: $insensitive_bg_color;
+  }
+}

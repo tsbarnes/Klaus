@@ -1,0 +1,19 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+
+@import 'variables';
+@import 'buttons';
+@import 'entries';
+@import 'menus';
+@import 'dialogs';
+@import 'calendar';
+@import 'dash';
+@import 'panel';
+
+stage {
+  color: $dark_bg_color;
+  background-color:$dark_fg_color;
+}
+
+* {
+  border-radius: 0 !important;
+}

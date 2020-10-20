@@ -1,0 +1,56 @@
+/* dark color scheme */
+$dark_bg_color: #605150;
+$dark_fg_color: #dcd2c5;
+/* colormap actually used by the theme, to be overridden in other css files */
+$theme_bg_color: #dcd2c5;
+$theme_fg_color: #605150;
+$theme_base_color: #fffaed;
+$theme_text_color: #605150;
+$theme_selected_bg_color: #b8917f;
+$theme_selected_fg_color: #fffaed;
+$theme_tooltip_bg_color: #dcd2c5;
+$theme_tooltip_fg_color: #605150;
+/* shadow effects */
+$light_shadow: #ddd3c6;
+$dark_shadow: #131010;
+/* misc colors used by gtk+ */
+$info_fg_color: #fffaed;
+$info_bg_color: #96f7d4;
+$warning_fg_color: #fffaed;
+$warning_bg_color: #ebff7c;
+$question_fg_color: #fffaed;
+$question_bg_color: #96f7d4;
+$error_fg_color: #fffaed;
+$error_bg_color: #b8917f;
+$link_color: #52d5d4;
+$success_color: #a9ff90;
+$warning_color: #ebff7c;
+$error_color: #b8917f;
+/* widget colors */
+$titlebar_bg_focused: $dark_bg_color;
+$titlebar_bg_unfocused: $theme_bg_color;
+$titlebar_fg_focused: $dark_fg_color;
+$titlebar_fg_unfocused: mix(#605150,#dcd2c5,0.4);
+$menubar_bg_color: $dark_bg_color;
+$menubar_fg_color: $dark_fg_color;
+$toolbar_bg_color: $theme_bg_color;
+$toolbar_fg_color: $theme_fg_color;
+$menu_bg_color: $dark_bg_color;
+$menu_fg_color: $dark_fg_color;
+$panel_bg_color: $dark_bg_color;
+$panel_fg_color: $dark_fg_color;
+$borders: mix(#dcd2c5,#605150,0.1);
+$unfocused_borders: mix(#dcd2c5,mix(#dcd2c5,#605150,0.1),0.9);
+$button_bg_color: #dcd2c5;
+$button_fg_color: #605150;
+$header_button_bg_color: #605150;
+$header_button_fg_color: #fffaed;
+$insensitive_bg_color: mix($theme_base_color, $error_bg_color, 0.5);
+$insensitive_fg_color: mix($theme_text_color, $error_fg_color, 0.5);
+/* osd */
+$osd_base: #605150;
+$osd_bg: rgba(96, 81, 80, 0.8);
+$osd_fg: #dcd2c5;
+$osd_insensitive_bg_color: mix(#dcd2c5,rgba(96, 81, 80, 0.8),0.5);
+$osd_insensitive_fg_color: mix(#dcd2c5,#605150,0.6);
+$osd_borders_color: rgba(82, 69, 68, 0.8);

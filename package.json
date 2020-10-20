@@ -1,0 +1,14 @@
+{
+  "name": "klaus-theme",
+  "version": "0.1.0",
+  "repository": "https://github.com/tsbarnes/Klaus.git",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "git://github.com/gulpjs/gulp.git#6d71a658c61edb3090221579d8f97dbe086ba2ed",
+    "gulp-ruby-sass": "^0.5.0",
+    "vinyl": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
