@@ -5,6 +5,8 @@
 /*$light_shadow: #fff;*/
 /*$button_border_strength: if(lightness($bg) > 50, 0, .1);*/
 /*$button_shadow_strength: if(lightness($bg) > 50, 0, .1);*/
+/* Global Values */
+/* Common Stylings */
 #dash StButton, #panel StButton {
   color: #d5c4a1;
 }

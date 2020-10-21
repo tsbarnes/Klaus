@@ -1,6 +1,8 @@
 @import url("/usr/share/gnome-shell/theme/gnome-shell.css");
 
 @import 'variables';
+@import 'mixins';
+@import 'common';
 @import 'buttons';
 @import 'entries';
 @import 'menus';

@@ -28,6 +28,7 @@ $dark_fg_color: #d5c4a1;
 /*$light_shadow: #fff;*/
 $dark_shadow: shade($fg_color, .2);
 $light_shadow: lighten($bg_color, .4);
+$shadow_color: if($variant != 'light', $dark_shadow, $light_shadow);
 
 // caret
 $primary_caret_color: #d5c4a1;
