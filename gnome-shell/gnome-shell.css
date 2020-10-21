@@ -1,0 +1,119 @@
+@import url("/usr/share/gnome-shell/theme/gnome-shell.css");
+/*$selected_borders_color: if($variant == 'light', darken($selected_bg_color, 30%), darken($selected_bg_color, 20%));*/
+/*$borders_color: if($variant == 'light', shade($bg_color, .85), shade($bg_color, .88));*/
+/*$dark_shadow: #000;*/
+/*$light_shadow: #fff;*/
+/*$button_border_strength: if(lightness($bg) > 50, 0, .1);*/
+/*$button_shadow_strength: if(lightness($bg) > 50, 0, .1);*/
+#dash StButton, #panel StButton {
+  color: #d5c4a1;
+}
+
+StEntry {
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+
+.popup-menu .popup-sub-menu {
+  background-color: #1d2021;
+}
+.popup-menu .popup-menu-content {
+  background-color: #1d2021;
+}
+.popup-menu .popup-menu-item {
+  background-color: transparent !important;
+  color: #d5c4a1;
+}
+.popup-menu .popup-menu-item:hover, .popup-menu .popup-menu-item:active, .popup-menu .popup-menu-item:overview, .popup-menu .popup-menu-item:focus, .popup-menu .popup-menu-item:checked {
+  background-color: #b8bb26 !important;
+  color: #fbf1c7;
+}
+.popup-menu .popup-menu-item:insensitive {
+  color: #1e2122;
+  background-color: #1d2021;
+}
+
+.panel-menu .calendar,
+.panel-menu .message-list-sections,
+.panel-menu .datemenu-today-button,
+.panel-menu .world-clocks-button,
+.panel-menu .weather-button,
+.panel-menu .events-section-title {
+  color: #d5c4a1;
+  background-color: #1d2021;
+}
+.panel-menu .calendar StLabel,
+.panel-menu .message-list-sections StLabel,
+.panel-menu .datemenu-today-button StLabel,
+.panel-menu .world-clocks-button StLabel,
+.panel-menu .weather-button StLabel,
+.panel-menu .events-section-title StLabel {
+  color: #d5c4a1;
+}
+.panel-menu .datemenu-today-button:active, .panel-menu .datemenu-today-button:focus, .panel-menu .datemenu-today-button:hover,
+.panel-menu .world-clocks-button:active,
+.panel-menu .world-clocks-button:focus,
+.panel-menu .world-clocks-button:hover,
+.panel-menu .weather-button:active,
+.panel-menu .weather-button:focus,
+.panel-menu .weather-button:hover,
+.panel-menu .events-section-title:active,
+.panel-menu .events-section-title:focus,
+.panel-menu .events-section-title:hover {
+  color: #fbf1c7;
+  background-color: #b8bb26;
+}
+.panel-menu .calendar-day-base {
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+.panel-menu .calendar-day-base:active, .panel-menu .calendar-day-base:focus, .panel-menu .calendar-day-base:hover {
+  color: #fbf1c7;
+  background-color: #b8bb26;
+}
+
+#dash {
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+#dash .dash-label {
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+
+#panel {
+  background-color: #1d2021;
+  color: #d5c4a1;
+}
+#panel .panel-corner {
+  -panel-corner-radius: 0;
+  -panel-corner-background-color: transparent;
+  -panel-corner-border-width: 0;
+  -panel-corner-border-color: transparent;
+}
+#panel .panel-button {
+  color: #d5c4a1;
+}
+#panel .panel-button .app-menu-icon {
+  -st-icon-style: symbolic;
+}
+#panel:hover, #panel:active, #panel:overview, #panel:focus, #panel:checked {
+  background-color: transparent;
+  color: #d5c4a1;
+  border-bottom: 5px solid #b8bb26;
+}
+#panel:insensitive {
+  color: #1e2122;
+  background-color: #1d2021;
+}
+
+stage {
+  color: #1d2021;
+  background-color: #d5c4a1;
+}
+
+* {
+  border-radius: 0 !important;
+}
+
+/*# sourceMappingURL=gnome-shell.css.map */
