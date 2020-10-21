@@ -11,10 +11,19 @@ module.exports = function(grunt) {
           'gnome-shell/gnome-shell.css': 'sass/gnome-shell/gnome-shell.scss'
         }
       }
+    },
+    watch: {
+      sass: {
+        files: [
+          'sass/**/*.scss'
+        ],
+        tasks: ['sass']
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
-  grunt.registerTask('default', ['sass']);
+  grunt.registerTask('default', ['sass', 'watch']);
 }
