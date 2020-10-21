@@ -16,6 +16,9 @@ StEntry {
   color: #d5c4a1;
 }
 
+.popup-menu, .panel-menu {
+  -arrow-background-color: #1d2021;
+}
 .popup-menu .popup-sub-menu, .panel-menu .popup-sub-menu {
   background-color: #1d2021;
 }
