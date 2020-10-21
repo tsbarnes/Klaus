@@ -1,19 +1,19 @@
 .popup-menu {
   .popup-sub-menu {
-    background-color: $theme_bg_color;
+    background-color: $bg_color;
   }
   
   .popup-menu-content {
-    background-color: $theme_bg_color;
+    background-color: $bg_color;
   }
 
   .popup-menu-item {
     background-color: transparent !important;
-    color: $theme_fg_color;
+    color: $fg_color;
 
     &:hover, &:active, &:overview, &:focus, &:checked {
-      background-color: $theme_selected_bg_color !important;
-      color: $theme_selected_fg_color;
+      background-color: $selected_bg_color !important;
+      color: $selected_fg_color;
     }
 
     &:insensitive {
