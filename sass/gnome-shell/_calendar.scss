@@ -36,4 +36,13 @@
       background-color: $selected_bg_color;
     }
   }
+
+  .events-button {
+    color: $fg_color;
+    background-color: $bg_color;
+
+    StLabel {
+      color: $fg_color;
+    }
+  }
 }

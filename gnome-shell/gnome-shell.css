@@ -71,6 +71,13 @@ StEntry {
   color: #fbf1c7;
   background-color: #b8bb26;
 }
+.panel-menu .events-button {
+  color: #d5c4a1;
+  background-color: #1d2021;
+}
+.panel-menu .events-button StLabel {
+  color: #d5c4a1;
+}
 
 #dash {
   background-color: #1d2021;
