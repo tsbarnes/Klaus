@@ -3,7 +3,8 @@ module.exports = function(grunt) {
     sass: {                              // Task
       dist: {                            // Target
         options: {                       // Target options
-          style: 'expanded'
+          style: 'expanded',
+          quiet: true
         },
         files: {                         // Dictionary of files
           'gtk-3.0/dist/gtk-light.css': 'sass/gtk-3.0/gtk-light.scss',       // 'destination': 'source'
