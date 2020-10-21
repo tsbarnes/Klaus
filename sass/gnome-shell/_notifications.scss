@@ -12,8 +12,8 @@ $notification_banner_width: 34em;
 
   .notification-actions {
     spacing: 0;
-    background-color: $bg_color;
-    color: $fg_color;
+    background-color: $bg_color !important;
+    color: $fg_color !important;
   }
 }
 

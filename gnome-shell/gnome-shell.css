@@ -268,8 +268,8 @@ StEntry {
 }
 .notification-banner .notification-actions {
   spacing: 0;
-  background-color: #1d2021;
-  color: #d5c4a1;
+  background-color: #1d2021 !important;
+  color: #d5c4a1 !important;
 }
 
 .summary-source-counter {
