@@ -21,4 +21,12 @@
       background-color: $insensitive_bg_color;
     }
   }
+
+  StButton {
+    background-color: transparent;
+
+    StIcon {
+      color: $fg_color;
+    }
+  }
 }

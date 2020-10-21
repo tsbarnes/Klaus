@@ -32,6 +32,12 @@ StEntry {
   color: #1e2122;
   background-color: #1d2021;
 }
+.popup-menu StButton {
+  background-color: transparent;
+}
+.popup-menu StButton StIcon {
+  color: #d5c4a1;
+}
 
 /* Modal Dialogs */
 .headline {
