@@ -14,10 +14,10 @@
         /* this is used for the resize cursor area */
         //margin: $spacing * 3;
 
-        border-width: $spacing % 2;
+        border-width: $border_size;
         border-style: solid;
         border-color: $wm_border_focused;
-        box-shadow: $spacing $spacing $spacing $spacing transparentize($wm_border_focused, .6);
+        box-shadow: $spacing $spacing $spacing $spacing transparentize(black, .6);
 
         &:backdrop {
             //box-shadow: 0 3px 9px 1px transparent, 0 2px 6px 2px transparentize($black, .6), 0 0 0 1px $wm_border_unfocused;

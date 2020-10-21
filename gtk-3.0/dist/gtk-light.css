@@ -71,7 +71,7 @@
 @define-color unfocused_insensitive_color #ede5d6;
 /* window manager colors */
 @define-color wm_bg #1d2021;
-@define-color wm_border_focused #1d2021;
+@define-color wm_border_focused #b6985b;
 @define-color wm_border_unfocused #1d2021;
 @define-color wm_title_focused mix(#d5c4a1,#1d2021,0.1);
 @define-color wm_title_unfocused mix(#d5c4a1,#1d2021,0.4);
@@ -7933,10 +7933,10 @@ placesview > actionbar > revealer > box > label {
 decoration {
   border-radius: 0px 0px 0 0;
   /* this is used for the resize cursor area */
-  border-width: 0px;
+  border-width: 2px;
   border-style: solid;
-  border-color: #1d2021;
-  box-shadow: 4px 4px 4px 4px rgba(29, 32, 33, 0.4);
+  border-color: #b6985b;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.4);
 }
 decoration:backdrop {
   border-color: #1d2021;
@@ -7949,7 +7949,7 @@ decoration:backdrop {
   box-shadow: none;
 }
 .ssd decoration {
-  box-shadow: 0 0 0 1px #1d2021;
+  box-shadow: 0 0 0 1px #b6985b;
 }
 .solid-csd decoration {
   border-radius: 0;
@@ -8830,7 +8830,7 @@ UnityDecoration {
   -UnityDecoration-title-alignment: 0;
 }
 UnityDecoration .top {
-  border: 1px solid #1d2021;
+  border: 1px solid #b6985b;
   border-bottom: 0;
   border-radius: 0px 0px 0 0;
   padding: 1px 7px 0 7px;
