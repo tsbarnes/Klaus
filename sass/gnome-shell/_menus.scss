@@ -1,24 +1,38 @@
-.popup-menu {
+.popup-menu, .panel-menu {
   .popup-sub-menu {
     background-color: $bg_color;
   }
   
   .popup-menu-content {
+    box-shadow: $spacing $spacing $spacing $spacing transparentize(black, 0.6);
     background-color: $bg_color;
+    color: $fg_color;
   }
 
   .popup-menu-item {
     background-color: transparent !important;
     color: $fg_color;
 
+    StWidget {
+      color: $fg_color;
+    }
+
     &:hover, &:active, &:overview, &:focus, &:checked {
       background-color: $selected_bg_color !important;
-      color: $selected_fg_color;
+      color: $selected_fg_color !important;
+
+      StWidget {
+        color: $selected_fg_color !important;
+      }
     }
 
     &:insensitive {
-      color: $insensitive_fg_color;
-      background-color: $insensitive_bg_color;
+      color: $insensitive_fg_color !important;
+      background-color: $insensitive_bg_color !important;
+
+      StWidget {
+        color: $insensitive_fg_color !important;
+      }
     }
   }
 

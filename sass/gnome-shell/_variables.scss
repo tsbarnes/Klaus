@@ -9,7 +9,7 @@ $button_fg_color: if($variant != "dark", #1d2021, #d5c4a1);
 $header_button_bg_color: #1d2021;
 $header_button_fg_color: #d5c4a1;
 $selected_bg_color: #b8bb26;
-$selected_fg_color: #fbf1c7;
+$selected_fg_color: #1d2021;
 $tooltip_bg_color: #1d2021;
 $tooltip_fg_color: #d5c4a1;
 
@@ -111,8 +111,8 @@ $wm_icons_unfocused_prelight: $selected_bg_color;
 $wm_icons_unfocused_pressed: shade($selected_bg_color, .8);
 
 //insensitive state derived colors
-$insensitive_fg_color: mix($fg_color, $bg_color, .5);
-$insensitive_bg_color: mix($bg_color, $base_color, .6);
+$insensitive_fg_color: darken($fg_color, 15%);
+$insensitive_bg_color: $bg_color;
 $insensitive_borders_color: $borders_color;
 
 //colors for the backdrop state, derived from the main colors.
