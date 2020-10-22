@@ -1,7 +1,7 @@
 .button {
   border: 1px solid $button_border;
-  background-color: $bg_color;
-  color: $fg_color;
+  background-color: $button_bg_color;
+  color: $button_fg_color;
 
   StWidget {
     color: $fg_color;
