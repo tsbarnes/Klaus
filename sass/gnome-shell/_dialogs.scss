@@ -14,6 +14,25 @@
     spacing: 32px;
     max-width: 28em;
   }
+
+  StButton {
+    background-color: $bg_color;
+    color: $fg_color;
+  }
+}
+
+/* Network Manager */
+.nm-dialog-item {
+  font-size: 12pt;
+  border-bottom: 1px solid #666;
+  padding: 12px;
+  background-color: $base_color;
+  color: $text_color;
+  
+  &:checked {
+    background-color: $selected_bg_color;
+    color: $selected_fg_color;
+  }
 }
 
 /* End Session Dialog */
