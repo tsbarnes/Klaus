@@ -1,6 +1,19 @@
-#dash StButton, #panel StButton {
+.button {
+  background-color: $bg_color;
   color: $fg_color;
-  //background-color: $bg_color;
+
+  StWidget {
+    color: $fg_color;
+  }
+
+  &:hover, &:active {
+    background-color: $selected_bg_color;
+    color: $selected_fg_color;
+  
+    StWidget {
+      color: $selected_fg_color;
+    }
+  }
 }
 
 .candidate-page-button,

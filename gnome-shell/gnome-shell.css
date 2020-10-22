@@ -7,8 +7,19 @@
 /*$button_shadow_strength: if(lightness($bg) > 50, 0, .1);*/
 /* Global Values */
 /* Common Stylings */
-#dash StButton, #panel StButton {
+.button {
+  background-color: #1d2021;
   color: #d5c4a1;
+}
+.button StWidget {
+  color: #d5c4a1;
+}
+.button:hover, .button:active {
+  background-color: #b8bb26;
+  color: #1d2021;
+}
+.button:hover StWidget, .button:active StWidget {
+  color: #1d2021;
 }
 
 .candidate-page-button,
