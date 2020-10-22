@@ -2,3 +2,25 @@
   color: $fg_color;
   //background-color: $bg_color;
 }
+
+.candidate-page-button,
+.notification-button,
+.notification-icon-button,
+.hotplug-notification-item,
+.hotplug-resident-eject-button,
+.modal-dialog-button,
+.app-view-control {
+  border: 1px solid $borders_color;
+  background-color: $bg_color;
+  StWidget {
+    color: $fg_color;
+  }
+
+  &:hover {
+    background-color: $selected_bg_color;
+
+    StWidget {
+      color: $selected_fg_color;
+    }
+  }
+}

@@ -11,6 +11,44 @@
   color: #d5c4a1;
 }
 
+.candidate-page-button,
+.notification-button,
+.notification-icon-button,
+.hotplug-notification-item,
+.hotplug-resident-eject-button,
+.modal-dialog-button,
+.app-view-control {
+  border: 1px solid #d5c4a1;
+  background-color: #1d2021;
+}
+.candidate-page-button StWidget,
+.notification-button StWidget,
+.notification-icon-button StWidget,
+.hotplug-notification-item StWidget,
+.hotplug-resident-eject-button StWidget,
+.modal-dialog-button StWidget,
+.app-view-control StWidget {
+  color: #d5c4a1;
+}
+.candidate-page-button:hover,
+.notification-button:hover,
+.notification-icon-button:hover,
+.hotplug-notification-item:hover,
+.hotplug-resident-eject-button:hover,
+.modal-dialog-button:hover,
+.app-view-control:hover {
+  background-color: #b8bb26;
+}
+.candidate-page-button:hover StWidget,
+.notification-button:hover StWidget,
+.notification-icon-button:hover StWidget,
+.hotplug-notification-item:hover StWidget,
+.hotplug-resident-eject-button:hover StWidget,
+.modal-dialog-button:hover StWidget,
+.app-view-control:hover StWidget {
+  color: #1d2021;
+}
+
 StEntry {
   background-color: #1d2021;
   color: #d5c4a1;
