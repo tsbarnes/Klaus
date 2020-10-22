@@ -1,4 +1,5 @@
 .button {
+  border: 1px solid $button_border;
   background-color: $bg_color;
   color: $fg_color;
 
@@ -6,12 +7,21 @@
     color: $fg_color;
   }
 
-  &:hover, &:active {
+  &:hover, &:active, &:focus {
     background-color: $selected_bg_color;
     color: $selected_fg_color;
   
     StWidget {
       color: $selected_fg_color;
+    }
+  }
+
+  &:insensitive {
+    color: $insensitive_fg_color !important;
+    background-color: $insensitive_bg_color !important;
+
+    StWidget {
+      color: $insensitive_fg_color !important;
     }
   }
 }

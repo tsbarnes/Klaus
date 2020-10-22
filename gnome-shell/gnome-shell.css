@@ -7,19 +7,42 @@
 /*$button_shadow_strength: if(lightness($bg) > 50, 0, .1);*/
 /* Global Values */
 /* Common Stylings */
+.shell-link {
+  color: #3f51b5;
+}
+.shell-link:hover {
+  color: #606fc7;
+}
+
+.lowres-icon {
+  icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.icon-dropshadow {
+  icon-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
 .button {
+  border: 1px solid rgba(213, 196, 161, 0.84);
   background-color: #1d2021;
   color: #d5c4a1;
 }
 .button StWidget {
   color: #d5c4a1;
 }
-.button:hover, .button:active {
+.button:hover, .button:active, .button:focus {
   background-color: #b8bb26;
   color: #1d2021;
 }
-.button:hover StWidget, .button:active StWidget {
+.button:hover StWidget, .button:active StWidget, .button:focus StWidget {
   color: #1d2021;
+}
+.button:insensitive {
+  color: #bda36c !important;
+  background-color: #1d2021 !important;
+}
+.button:insensitive StWidget {
+  color: #bda36c !important;
 }
 
 .candidate-page-button,
