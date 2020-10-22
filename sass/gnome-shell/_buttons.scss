@@ -34,9 +34,9 @@
 .modal-dialog-button,
 .app-view-control {
   border: 1px solid $borders_color;
-  background-color: $bg_color;
+  background-color: $button_bg_color;
   StWidget {
-    color: $fg_color;
+    color: $button_fg_color;
   }
 
   &:hover {
