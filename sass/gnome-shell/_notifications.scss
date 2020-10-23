@@ -10,10 +10,18 @@ $notification_banner_width: 34em;
   background-color: $bg_color;
   color: $fg_color;
 
+  StWidget {
+    color: $fg_color;
+  }
+
   .notification-actions {
     spacing: 0;
     background-color: $bg_color !important;
     color: $fg_color !important;
+
+    StWidget {
+      color: $fg_color;
+    }
   }
 }
 

@@ -363,10 +363,16 @@ StEntry {
   background-color: #1d2021;
   color: #d5c4a1;
 }
+.notification-banner StWidget {
+  color: #d5c4a1;
+}
 .notification-banner .notification-actions {
   spacing: 0;
   background-color: #1d2021 !important;
   color: #d5c4a1 !important;
+}
+.notification-banner .notification-actions StWidget {
+  color: #d5c4a1;
 }
 
 .summary-source-counter {
