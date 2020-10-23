@@ -28,10 +28,9 @@ stage {
 }
 
 .button {
-  border-radius: 0 !important;
   color: #d5c4a1;
-  background-color: #242829;
-  border-color: #131516;
+  background-color: #1d2021;
+  border-color: rgba(213, 196, 161, 0.84);
   box-shadow: 0 1px 1px 0 shade(#d5c4a1, 0.2);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -90,8 +89,8 @@ stage {
 .modal-dialog-button,
 .app-view-control {
   color: #d5c4a1;
-  background-color: #242829;
-  border-color: #131516;
+  background-color: #1d2021;
+  border-color: rgba(213, 196, 161, 0.84);
   box-shadow: 0 1px 1px 0 shade(#d5c4a1, 0.2);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -235,8 +234,8 @@ StEntry {
 }
 .popup-menu StButton, .panel-menu StButton {
   color: #d5c4a1;
-  background-color: #242829;
-  border-color: #131516;
+  background-color: #1d2021;
+  border-color: rgba(213, 196, 161, 0.84);
   box-shadow: 0 1px 1px 0 shade(#d5c4a1, 0.2);
   text-shadow: 0 1px rgba(0, 0, 0, 0.2);
   icon-shadow: 0 1px rgba(0, 0, 0, 0.2);
@@ -286,9 +285,6 @@ StEntry {
 }
 .popup-menu StButton:active StWidget, .panel-menu StButton:active StWidget {
   color: #1d2021;
-}
-.popup-menu StButton StIcon, .panel-menu StButton StIcon {
-  color: #d5c4a1;
 }
 
 /* Modal Dialogs */

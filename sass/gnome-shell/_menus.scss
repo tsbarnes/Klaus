@@ -45,9 +45,5 @@
     &:insensitive { @include button(insensitive);}
     &:active { @include button(active);}
     background-color: transparent;
-
-    StIcon {
-      color: $fg_color;
-    }
   }
 }
