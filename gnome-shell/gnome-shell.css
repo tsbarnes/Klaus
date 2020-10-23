@@ -495,6 +495,9 @@ StEntry {
   color: #1d2021;
   background-color: #b8bb26;
 }
+.panel-menu .calendar {
+  border: 1px solid rgba(213, 196, 161, 0.84);
+}
 .panel-menu .calendar-day-base {
   background-color: #1d2021;
   color: #d5c4a1;
@@ -515,6 +518,7 @@ StEntry {
 .notification-banner {
   min-height: 64px;
   width: 34em;
+  border: 1px solid #d5c4a1;
   background-color: #1d2021;
   color: #d5c4a1;
 }

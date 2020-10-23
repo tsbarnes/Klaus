@@ -5,11 +5,11 @@
   .world-clocks-button,
   .weather-button,
   .events-section-title {
-    color: $fg_color;
-    background-color: $bg_color;
+    color: $button_fg_color;
+    background-color: $button_bg_color;
 
     StLabel {
-      color: $fg_color;
+      color: $button_fg_color;
     }
   }
 
@@ -23,6 +23,10 @@
       color: $selected_fg_color;
       background-color: $selected_bg_color;
     }
+  }
+
+  .calendar {
+    border: 1px solid $button_border;
   }
 
   .calendar-day-base {
