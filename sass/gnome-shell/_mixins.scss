@@ -111,7 +111,7 @@
     }
   }
   
-  @mixin button($t, $c:$bg_color, $tc:$fg_color, $edge: $borders_edge, $shadow: $shadow_color) {
+  @mixin button($t, $c:$button_bg_color, $tc:$button_fg_color, $edge: $button_border, $shadow: $shadow_color) {
   //
   // Button drawing function
   //
