@@ -39,6 +39,11 @@
   }
 
   StButton {
+    @include button(normal);
+    &:focus { @include button(focus);}
+    &:hover { @include button(hover);}
+    &:insensitive { @include button(insensitive);}
+    &:active { @include button(active);}
     background-color: transparent;
 
     StIcon {

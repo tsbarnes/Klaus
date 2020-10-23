@@ -12,6 +12,11 @@ $notification_banner_width: 34em;
 
   StWidget {
     color: $fg_color;
+
+    &:hover, &:active, &:focus {
+      background-color: $selected_bg_color;
+      color: $selected_fg_color;
+    }
   }
 
   .notification-actions {

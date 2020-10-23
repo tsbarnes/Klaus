@@ -1,28 +1,18 @@
 .button {
-  border: 1px solid $button_border;
-  background-color: $button_bg_color;
-  color: $button_fg_color;
+  border-radius: 0 !important;
 
-  StWidget {
-    color: $fg_color;
+  @include button(normal);
+  &:focus {
+    @include button(focus);
   }
-
-  &:hover, &:active, &:focus {
-    background-color: $selected_bg_color;
-    color: $selected_fg_color;
-  
-    StWidget {
-      color: $selected_fg_color;
-    }
+  &:hover {
+    @include button(hover);
   }
-
   &:insensitive {
-    color: $insensitive_fg_color !important;
-    background-color: $insensitive_bg_color !important;
-
-    StWidget {
-      color: $insensitive_fg_color !important;
-    }
+    @include button(insensitive);
+  }
+  &:active {
+    @include button(active);
   }
 }
 
@@ -33,17 +23,9 @@
 .hotplug-resident-eject-button,
 .modal-dialog-button,
 .app-view-control {
-  border: 1px solid $borders_color;
-  background-color: $button_bg_color;
-  StWidget {
-    color: $button_fg_color;
-  }
-
-  &:hover {
-    background-color: $selected_bg_color;
-
-    StWidget {
-      color: $selected_fg_color;
-    }
-  }
+  @include button(normal);
+  &:focus { @include button(focus);}
+  &:hover { @include button(hover);}
+  &:insensitive { @include button(insensitive);}
+  &:active { @include button(active);}
 }
