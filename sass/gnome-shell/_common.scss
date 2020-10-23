@@ -6,7 +6,7 @@ $base_margin: 4px;
 $base_spacing: 6px;
 
 // border radii
-$base_border_radius: 5px;
+$base_border_radius: 0px;
 
 $modal_radius:$base_border_radius * 2;
 
@@ -34,7 +34,16 @@ $base_icon_size: 1.09em;
 
 // Stage
 
+stage {
+  color: $dark_bg_color;
+  background-color:$dark_fg_color;
+}
+
 /* Common Stylings */
+
+// * {
+//   border-radius: 0 !important;
+// }
 
 // Text
 %status_text {

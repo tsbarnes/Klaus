@@ -11,12 +11,3 @@
 @import 'notifications';
 @import 'dash';
 @import 'panel';
-
-stage {
-  color: $dark_bg_color;
-  background-color:$dark_fg_color;
-}
-
-* {
-  border-radius: 0 !important;
-}

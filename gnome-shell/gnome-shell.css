@@ -6,6 +6,11 @@
 /*$button_border_strength: if(lightness($bg) > 50, 0, .1);*/
 /*$button_shadow_strength: if(lightness($bg) > 50, 0, .1);*/
 /* Global Values */
+stage {
+  color: #1d2021;
+  background-color: #d5c4a1;
+}
+
 /* Common Stylings */
 .shell-link {
   color: #3f51b5;
@@ -455,15 +460,6 @@ StEntry {
 #panel:insensitive {
   color: #bda36c;
   background-color: #1d2021;
-}
-
-stage {
-  color: #1d2021;
-  background-color: #d5c4a1;
-}
-
-* {
-  border-radius: 0 !important;
 }
 
 /*# sourceMappingURL=gnome-shell.css.map */
